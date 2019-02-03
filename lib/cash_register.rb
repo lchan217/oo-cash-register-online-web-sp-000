@@ -27,6 +27,6 @@ class CashRegister
     @cart
   end 
   def void_last_transaction
-    @total.clear
+    @total -= @price
   end 
 end 
