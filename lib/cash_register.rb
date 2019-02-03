@@ -18,7 +18,7 @@ class CashRegister
       discount1 = (1 -(@discount.to_f/100))
       @total = @total*discount1
       @total = @total.to_f
-      return "After the discount, the total comes to #{@discount1}."
+      return "After the discount, the total comes to #{@totall}."
     else 
       return "There is no discount to apply."
     end 
