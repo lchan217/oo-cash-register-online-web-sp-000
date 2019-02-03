@@ -10,6 +10,7 @@ class CashRegister
     i = 0 
     while quantity > i 
     @cart << title 
-    i+= 1
+    i+= 1 
+  end 
   end 
 end 
